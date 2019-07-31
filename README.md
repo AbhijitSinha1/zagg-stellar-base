@@ -28,7 +28,9 @@ yarn xdr
 
 - Make changes in code
 - Update the version in package.json.
-- `npm login`
-- `npm version major` or `npm version minor` or `npm version patch` depending upon types of changes.
-- `npm publish`
+```
+npm login
+npm version minor --force
+npm publish
+```
 
