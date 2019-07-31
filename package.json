@@ -1,6 +1,6 @@
 {
   "name": "stellar-base",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Low level stellar support library",
   "main": "./lib/index.js",
   "types": "./types/index.d.ts",
@@ -11,7 +11,6 @@
     "dtslint": "dtslint types",
     "preversion": "gulp test",
     "version": "gulp build",
-    "postversion": "git push && git push --tags",
     "prettier-all": "prettier --write **/*.js"
   },
   "husky": {
