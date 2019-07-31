@@ -14,7 +14,7 @@ npm i zagg-stellar-base
 # install 
 yarn install
 
-#
+# build the code
 gulp build
 
 #Install all dependencies
