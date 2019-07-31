@@ -1,4 +1,4 @@
-// Automatically generated on 2019-04-30T12:43:38-07:00
+// Automatically generated on 2019-07-31T16:25:56+05:30
 // DO NOT EDIT or your changes may be overwritten
 
 /* jshint maxstatements:2147483647  */
@@ -2539,10 +2539,10 @@ xdr.struct("TimeBounds", [
 
 // === xdr source ============================================================
 //
-//   const MAX_OPS_PER_TX = 100;
+//   const MAX_OPS_PER_TX = 10000;
 //
 // ===========================================================================
-xdr.const("MAX_OPS_PER_TX", 100);
+xdr.const("MAX_OPS_PER_TX", 10000);
 
 // === xdr source ============================================================
 //

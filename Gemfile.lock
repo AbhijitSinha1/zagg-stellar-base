@@ -1,7 +1,6 @@
 GIT
   remote: git@github.com:stellar/xdrgen.git
-  revision: 914c86ed6cee77e8e58883efe7cad4e0535b5ea0
-  branch: enum-standard-type-discriminant
+  revision: 8b8e7d2f215506ee878b5e387bd1eb399f22f423
   specs:
     xdrgen (0.0.1)
       activesupport (~> 5)

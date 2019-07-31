@@ -322,7 +322,7 @@ struct TimeBounds
 };
 
 // maximum number of operations per transaction
-const MAX_OPS_PER_TX = 100;
+const MAX_OPS_PER_TX = 10000;
 
 /* a transaction is a container for a set of operations
     - is executed by an account
