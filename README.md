@@ -11,8 +11,11 @@ npm i zagg-stellar-base
 ## Bundling and Generating stellar-xdr_generated.js from XDRs
 
 ```
-## setup
+# install 
 yarn install
+
+#
+gulp build
 
 #Install all dependencies
 bundle install
