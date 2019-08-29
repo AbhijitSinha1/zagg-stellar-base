@@ -1,4 +1,4 @@
-// Automatically generated on 2019-07-31T16:25:56+05:30
+// Automatically generated on 2019-08-29T12:42:24+05:30
 // DO NOT EDIT or your changes may be overwritten
 
 /* jshint maxstatements:2147483647  */
@@ -2495,7 +2495,7 @@ xdr.enum("MemoType", {
 //   case MEMO_NONE:
 //       void;
 //   case MEMO_TEXT:
-//       string text<28>;
+//       string text<500>;
 //   case MEMO_ID:
 //       uint64 id;
 //   case MEMO_HASH:
@@ -2516,7 +2516,7 @@ xdr.union("Memo", {
     ["memoReturn", "retHash"],
   ],
   arms: {
-    text: xdr.string(28),
+    text: xdr.string(500),
     id: xdr.lookup("Uint64"),
     hash: xdr.lookup("Hash"),
     retHash: xdr.lookup("Hash"),
