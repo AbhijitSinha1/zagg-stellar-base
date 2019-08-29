@@ -1,4 +1,4 @@
-// Automatically generated on 2019-08-29T12:42:24+05:30
+// Automatically generated on 2019-08-29T17:56:47+05:30
 // DO NOT EDIT or your changes may be overwritten
 
 /* jshint maxstatements:2147483647  */
@@ -53,10 +53,10 @@ xdr.typedef("TimePoint", xdr.lookup("Uint64"));
 
 // === xdr source ============================================================
 //
-//   typedef opaque DataValue<64>;
+//   typedef opaque DataValue<2048>;
 //
 // ===========================================================================
-xdr.typedef("DataValue", xdr.varOpaque(64));
+xdr.typedef("DataValue", xdr.varOpaque(2048));
 
 // === xdr source ============================================================
 //
