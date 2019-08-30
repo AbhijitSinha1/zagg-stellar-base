@@ -33,8 +33,8 @@ export function manageData(opts) {
     attributes.dataValue = opts.value;
   }
 
-  if (attributes.dataValue !== null && attributes.dataValue.length > 64) {
-    throw new Error('value cannot be longer that 64 bytes');
+  if (attributes.dataValue !== null && attributes.dataValue.length > 2048) {
+    throw new Error('value cannot be longer that 2048 bytes');
   }
 
   const manageDataOp = new xdr.ManageDataOp(attributes);
