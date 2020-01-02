@@ -4292,9 +4292,9 @@ js-tokens@^3.0.2:
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-3.0.2.tgz#9866df395102130e38f7f996bceb65443209c25b"
   integrity sha1-mGbfOVECEw449/mWvOtlRDIJwls=
 
-"js-xdr@git+https://github.com/gyandata/js-xdr.git":
+"js-xdr@git+https://github.com/gyandata/js-xdr.git#master":
   version "1.1.2"
-  resolved "git+https://github.com/gyandata/js-xdr.git#ca8d1092fa26dff1f2e11792e68bbc1e8d0141af"
+  resolved "git+https://github.com/gyandata/js-xdr.git#3c68dbd1d849f05221da5099af332a839b77a15c"
   dependencies:
     core-js "^2.6.3"
     cursor "^0.1.5"
